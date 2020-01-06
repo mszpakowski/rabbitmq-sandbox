@@ -21,7 +21,9 @@ defmodule RabbitmqSandbox.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:amqp, "~> 1.0"}
+      {:amqp, "~> 1.0"},
+      {:httpoison, "~> 1.6"},
+      {:jason, "~> 1.1"}
     ]
   end
 end
